@@ -1,0 +1,301 @@
+/*
+Theme Name: Clean Krete Theme
+Theme Url:http://www.cleankreteorangecounty.com/
+Description: Clean Krete Page for Orange County
+Version: 1
+Author: DanM
+Author URL: none
+*/
+
+/*--General--*/
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: url(logo.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+  font-size: 12pt;
+  font-family: "open sans", Arial, Helvetica, sans-serif;
+}
+header, #main, footer{
+  width: 85%;
+  max-width: 960px;
+  margin: 0px auto;
+  background: #ffffff;
+  padding: 4px;
+}
+a{
+  color: #0099cc;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+/*--Header--*/
+header{
+  margin-top: 2px;
+  overflow: hidden;
+  width: 85%;
+}
+header #logo{
+  width: 40%;
+  float:left;
+}
+header #logo p{
+  font-family: 'Raleway',Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  font-weight: 100;
+  text-align: left;
+  color: #057EA3;
+}
+header nav{
+  width: 60%;
+  float: right;
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+header nav ul{
+  float: right;
+}
+header nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin: 10px;
+}
+header nav ul li a{
+  font-family: 'Raleway',helvetica,arial;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color:#0099cc;
+}
+header nav ul li a:hover{
+  color:black;
+
+}
+img.clean-logo{
+  width: 80%;
+  height: 100%;
+  margin: 10px 10px;
+}
+div.pull-right{
+  float: right;
+  margin: 10px 10px;
+}
+
+/* Main */
+#main{
+  overflow: hidden;
+}
+/* slideshow */
+#main #slideshow{
+  width: 100%;
+  float: left;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+#main #slideshow .thumb{
+  width: 49%;
+  float: left;
+  margin-right: 2%;
+}
+#main #slideshow article{
+  float: left;
+  font-family: 'Open Sans', arial, helvetica,sans-serif;
+  font-size: 1rem;
+  text-align: justify;
+  width: 49%;
+}
+#main #slideshow article h2{
+  font-family: 'Raleway', helvetica,arial,sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: left;
+}
+#main #slideshow article .date{
+  font-family: 'Raleway', helvetica,arial,sans-serif;
+  font-size: .8rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#main #articles_list{
+  clear: both;
+  width: 75%;
+  float: left;
+}
+#main #slideshow .slidesjs-pagination li{
+  background: #0099cc;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block;
+}
+#main #slideshow .slidesjs-pagination li a{
+  width: 20px;
+  height: 20px;
+  display: block;
+  font-size: 0px;
+}
+#main #slideshow .slidesjs-pagination li .active{
+  background: #333333;
+}
+#main #articles_list{
+  clear: both;
+  width: 75%;
+  float: left;
+}
+#main #articles_list article{
+  margin-bottom: 40px;
+  margin-right: 4%;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #000000;
+  overflow: hidden;
+}
+#main #articles_list article .thumb{
+  width: 35%;
+  margin-right: 4%;
+  float: left;
+  margin-bottom: 2%;
+}
+
+#main #articles_list article .thumb img{
+  width: 100%;
+  height: 100%;
+}
+#main #articles_list article h2{
+  font-family: 'Raleway','open-sans', helvetica,arial,sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+#main #articles_list article h2 a{
+  color: #0099cc;
+}
+#main #articles_list article h2 a:hover{
+  text-decoration: none;
+  color: black;
+}
+#main #articles_list article .extract{
+  text-align: justify;
+  color:#A8A8A8;
+}
+#main #articles_list article .date{
+  font-size:.8rem;
+  margin-bottom: 10px;
+  color: #0099cc;
+}
+#main #articles_list article .date ul{
+  list-style: none;
+  display: inline-block;
+}
+#main #articles_list #pagination{
+  margin-bottom: 40px;
+  width: 100%;
+}
+#main #articles_list #pagination p{
+  text-align: center;
+}
+#main #articles_list #pagination a{
+  margin: 0px 20px;
+  font-size: 1.5rem;
+  font-family: 'Raleway','open-sans', helvetica,arial,sans-serif;
+  font-weight: 300;
+  display: inline-block;
+}
+p.tel{
+  font-family: 'Raleway',helvetica,arial;
+  font-weight: 300;
+  font-size: 1.3rem;
+  color:#000000;
+}
+a.tel{
+  font-family: 'Raleway',helvetica,arial;
+  font-weight: 500;
+  font-size: 1.3rem;
+  color:#0099cc;
+}
+/*Aside*/
+#main aside{
+  width: 25%;
+  float: left;
+}
+#main .widget{
+  width: 100%;
+}
+.widget{
+  margin-bottom: 50px;
+  display: block;
+  float: left;
+}
+.widget h3{
+  font-size: 1.4rem;
+  font-family: 'Raleway','open-sans', helvetica,arial;
+  font-weight: 400;
+  color:#0099cc;
+  margin-bottom: 10px;
+}
+.widget ul li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+.widget ul li a{
+  font-family: 'open-sans', helvetica,arial;
+  font-size: .9rem;
+  color: #a8a8a8;
+}
+.widget ul li a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+/*footer */
+footer{
+  width: 85%;
+}
+footer .widget{
+  width: 25%;
+}
+footer #copyright{
+  width: 100%;
+  clear: both;
+  text-align: center;
+  padding: 10px;
+  color:#0099cc;
+  font-family: 'Raleway','open-sans', helvetica,arial;
+  font-size: .9rem;
+}
+
+/*Info*/
+#main #articles_list #cat_name{
+  font-family: 'Raleway','open-sans', helvetica,arial;
+  font-size: 2rem;
+  color:#0099cc;
+  font-weight: 500;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #000000;
+  margin-right: 30px;
+  padding-bottom: 10px;
+}
+
+/*Comments*/
+#main #articles_list #comment{
+  margin-bottom: 40px;
+  margin-right: 4%;
+}
+#main #articles_list #comment > h3{
+  font-family: 'Raleway','open-sans', helvetica,arial;
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  color: #0099cc;
+}
+#main #articles_list #comment_box{
+  height: 70px;
+  background: #4DB6AC;
+
+}
