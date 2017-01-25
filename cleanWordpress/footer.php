@@ -1,29 +1,11 @@
 <footer>
   <section id="ft_widget">
-    <section class="widget">
-      <h3>Widget 1</h3>
-      <ul>
-        <li><a href="#">Lorem</a></li>
-        <li><a href="#">Lorem</a></li>
-        <li><a href="#">Lorem</a></li>
-        <li><a href="#">Lorem</a></li>
-        <li><a href="#">Lorem</a></li>
-      </ul>
-    </section>
-    <section class="widget">
-      <h3>Widget 2</h3>
-      <ul>
-        <li><a href="#">Lorem</a></li>
-        <li><a href="#">Lorem</a></li>
-        <li><a href="#">Lorem</a></li>
-        <li><a href="#">Lorem</a></li>
-        <li><a href="#">Lorem</a></li>
-      </ul>
-    </section>
+    <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer') ) : endif ?>
   </section>
 
   <p id="copyright">Clean Krete Copyright @ 2017</p>
 </footer>
 
+<?php wp_footer(); ?>
 </body>
 </html>
