@@ -1,5 +1,5 @@
 <footer>
-  <section id="ft_widget">
+  <section  style="color:black" id="ft_widget">
     <?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('Footer') ) : endif ?>
   </section>
 

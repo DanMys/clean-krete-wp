@@ -31,7 +31,7 @@
 <body>
   <header>
     <div id="logo"><img class="clean-logo" src="<?php bloginfo('template_url');?>/clean.png"/></div>
-    <div class="pull-right"><p class="tel">Call Us Today</p><span><a class="tel" href="tel:+8666075550">(866)607-5550</a></span></div>
+    <div class="pull-right"><p class="tel">Call Us Today</p><span><a class="tel" href="tel:+7142022616">(714)202-2616</a></span></div>
     <nav>
       <?php wp_nav_menu(
         array(

@@ -11,19 +11,12 @@
           <?php if ( has_post_thumbnail() ) { the_post_thumbnail( 'list_articles_thumbs' ); } ?>
         </a></div>
 
-        <hgroup><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2></hgroup>
-        <!-- <div class="date"><?php the_date(); ?> en <span><?php the_category();?></span></div> -->
+        <hgroup><h2><?php the_title(); ?></h2></hgroup>
         <div class="extract"><?php the_content(); ?> </div>
       </article>
     <?php endwhile; else: ?>
       <h1>Not Found</h1>
     <?php endif; ?>
-    <!-- <div id="comment">
-      <h3>Comments</h3>
-      <div id="comment_box">
-        < ? php comments_template(); ?>
-      </div>
-    </div> -->
   </section>
 
 <?php get_sidebar(); ?>
